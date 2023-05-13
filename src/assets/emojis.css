@@ -1,0 +1,28 @@
+
+
+
+.box{
+    border:1px solid red;
+    
+  }
+  .box__header{
+    border: 1px solid green;
+  }
+  .box__body{
+    border: 1px solid orange;
+    display:grid;
+    grid-template-columns: repeat(8,1fr) ;
+    grid-auto-rows: 100px;
+    gap: 1rem;
+  }
+  .box__body_item{
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 5px;
+  }
+  .box__footer{
+    border: 1px solid dodgerblue;
+  }
