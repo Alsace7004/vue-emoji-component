@@ -5,15 +5,15 @@
   <!--  -->
   <!-- <WebAudioRecorderVue/> -->
     <div class="box">
-      <div class="box__header">L'entete</div>
+      <!-- <div class="box__header">L'entete</div> -->
       <div class="box__body">
           <div class="box__body_item" v-for="emoj in emojis" :key="emoj">
             {{emoj.emoji}}
           </div>  
       </div>
-      <div class="box__footer">
+      <!-- <div class="box__footer">
         The footer
-      </div>
+      </div> -->
     </div>
   <!-- <Recorder/> -->
   <!--  -->

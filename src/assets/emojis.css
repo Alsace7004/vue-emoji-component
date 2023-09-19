@@ -2,14 +2,14 @@
 
 
 .box{
-    border:1px solid red;
+    /* border:1px solid red; */
     
   }
   .box__header{
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   .box__body{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display:grid;
     grid-template-columns: repeat(8,1fr) ;
     grid-auto-rows: 100px;
@@ -24,5 +24,5 @@
     border-radius: 5px;
   }
   .box__footer{
-    border: 1px solid dodgerblue;
+    /* border: 1px solid dodgerblue; */
   }
